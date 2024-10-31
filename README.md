@@ -75,17 +75,18 @@ Ensure your `pom.xml` is configured to include the Spring Web dependency and ena
 
 
 ### Cron Expression Breakdown:
-     "---------------------------"
-     "Field        | Value Range"
-     "-------------|-----------------------------"
-     "Seconds      | 0 - 59"
-     "Minutes      | 0 - 59"
-     "Hours        | 0 - 23"
-     "Day of Month | 1 - 31"
-     "Month        | 1 - 12"
-     "Day of Week  | 0 - 7 (Sunday is both 0 and 7)"
-     "---------------------------"
-     ""
+```sh
+-------------------------------------------
+Field        | Value Range
+-------------|-----------------------------
+Seconds      | 0 - 59
+Minutes      | 0 - 59
+Hours        | 0 - 23
+Day of Month | 1 - 31
+Month        | 1 - 12
+Day of Week  | 0 - 7 (Sunday is both 0 and 7)
+---------------------------------------------
+```     
      
 ### Cron Expression Visual Representation:
 ```sh
